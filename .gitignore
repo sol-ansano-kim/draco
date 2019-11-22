@@ -1,1 +1,8 @@
 docs/_site
+.build/
+.sconsign.dblite
+draco.cmake.config
+draco.cmake.outputs
+excons.cache
+release/
+debug/

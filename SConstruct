@@ -16,10 +16,6 @@ draco_opts["BUILD_SHARED_LIBS"] = 0 if staticlib else 1
 
 
 def _name(libname, static=True):
-    # TODO
-    if sys.platform != "win32":
-        return libname
-
     return libname
 
 def _path(libname, static=True):
